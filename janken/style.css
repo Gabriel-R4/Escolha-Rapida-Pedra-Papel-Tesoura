@@ -22,3 +22,21 @@
     margin-bottom: 50px;
     text-align: right;
   }
+  .escolhas {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .escolhas button {
+    background-color: #ffd51b;
+    color: #000;
+    border: none;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
+
