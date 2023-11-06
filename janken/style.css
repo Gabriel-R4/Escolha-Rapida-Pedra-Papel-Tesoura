@@ -23,20 +23,38 @@
     text-align: right;
   }
   .escolhas {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.escolhas button {
+  background-color: #ffd51b;
+  color: #000;
+  border: none;
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.detalhes {
+    margin-top: 30px;
+    text-align: center;
   }
-  .escolhas button {
-    background-color: #ffd51b;
-    color: #000;
-    border: none;
-    font-size: 50px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    outline: none;
-    cursor: pointer;
+  .pontuacao,
+  .detalhes {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  #resultado {
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
   }
 
