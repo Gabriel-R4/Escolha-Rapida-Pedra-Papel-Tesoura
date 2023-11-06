@@ -57,3 +57,29 @@ body {
   font-weight: 600;
   letter-spacing: 0.5px;
 }
+#usuario_escolha,
+#computador_escolha {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+span {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .escolhas {
+    flex-direction: column;
+  }
+  .escolhas button {
+    margin: 10px auto;
+  }
+  #resultado {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 10px 5px;
+  }
+}
